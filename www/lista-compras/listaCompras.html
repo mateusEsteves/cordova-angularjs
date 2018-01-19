@@ -1,0 +1,14 @@
+<table>
+    <thead>
+        <tr>
+            <th>Produto</th>
+            <th>Quantidade</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr ng-repeat="item in $ctrl.itens">
+            <td><strong>{{item.produto}}</strong></td>
+            <td>{{item.quantidade}}</td>
+        </tr>
+    </tbody>
+</table>
